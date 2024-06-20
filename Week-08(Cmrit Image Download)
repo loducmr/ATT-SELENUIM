@@ -32,7 +32,6 @@ Hyderabad Courses & Fees 2023']"));
  Thread.sleep(2000); 
  robot.keyPress(KeyEvent.VK_DOWN); 
  Thread.sleep(2000); 
-11 
  robot.keyPress(KeyEvent.VK_DOWN); 
  Thread.sleep(2000); 
  robot.keyPress(KeyEvent.VK_DOWN); 
