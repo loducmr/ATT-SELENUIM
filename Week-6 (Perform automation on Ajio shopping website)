@@ -28,7 +28,7 @@ if(!parentWindow.equals(childWindow))
 driver.switchTo().window(childWindow); 
 } 
 } 
-9 
+
 WebElement emailOrMobileNo =driver.findElement(By.xpath("//input[@id='email']")); 
 emailOrMobileNo.sendKeys("bhumi27@gmail.com"); 
 WebElement pwd = driver.findElement(By.xpath("//input[@id='pass']")); 
