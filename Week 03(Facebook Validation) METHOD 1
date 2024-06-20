@@ -19,7 +19,6 @@ surName.sendKeys("kamatam");
 Thread.sleep(500); 
 WebElement mobileNoOrEmailId= driver.findElement(By.name("reg_email__")); 
 mobileNoOrEmailId.sendKeys("1234567890"); 
-4 
 Thread.sleep(500); 
 WebElement password = driver.findElement(By.name("reg_passwd__")); 
 password.sendKeys("123ashu"); 
