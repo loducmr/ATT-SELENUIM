@@ -10,7 +10,6 @@ public class FacebookReg01 {
  driver.get("https://www.facebook.com/"); 
  Thread.sleep(200); 
  WebElement createAccount=driver.findElement(By.xpath("(//a[normalizespace()='Create new account'])[1]")); 
-5 
  createAccount.click(); 
  Thread.sleep(500); 
  driver.findElement(By.name("firstname")).sendKeys("ashu"); 
